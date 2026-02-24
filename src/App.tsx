@@ -10,10 +10,10 @@ const Header = () => (
     <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
       <div className="flex flex-col items-center md:items-start mb-4 md:mb-0">
         <h1 className="text-3xl md:text-4xl font-bold text-[#2b4c7e] text-center md:text-left font-serif">
-          مدرسہ محمودیہ تجوید القرآن شیر پورہ اوجلان
+          مدرسہ فرقانیہ گونڈہ
         </h1>
         <h2 className="text-xl md:text-2xl font-semibold text-[#2b4c7e] mt-2">
-          Madrasa Mahmoodia Tajweedul Quran Ujlan
+          Madarsa Furqania Gonda
         </h2>
       </div>
       <div className="flex flex-col gap-2">
@@ -71,7 +71,7 @@ const Introduction = () => (
     <div className="container mx-auto px-4 relative z-10 flex flex-col md:flex-row">
       <div className="md:w-1/2 bg-white/90 p-8 rounded-lg shadow-lg">
         <h3 className="text-[#2b4c7e] font-bold text-lg mb-2">An Introduction Of</h3>
-        <h2 className="text-3xl md:text-4xl font-bold text-[#4caf50] mb-6">Madrasa Mahmoodia Tajweedul Quran</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-[#4caf50] mb-6">Madarsa Furqania Gonda</h2>
         <p className="text-gray-700 mb-6 leading-relaxed">
           Really teaching and learning are such a base which guides the life to straight ways and on which the base of society and nation stands on. If the base is strong then the building will be strong otherwise not. So the intellectuals say "Education is a center and combination" By this as you saw so shall you reap. If the deterioration of new race is analyses then the illiteracy along with wrong education will be found. As Islam has put focus on vital importance of education as force in tracing it. If you have a glance then you will find that the new generation is the frontier, if they are free from dirt of environment they can raise a slog and bend the direction of
         </p>
@@ -127,7 +127,7 @@ const Activities = () => {
     { 
       icon: <HeartHandshake className="w-12 h-12 text-white mb-4" />, 
       title: "Relief Rehabilitation", 
-      desc: "Time to time Social relief services also provided to Muslims and other people by Madrasa Mahmoodia along with Modern and Islamic Education.",
+      desc: "Time to time Social relief services also provided to Muslims and other people by Madarsa Furqania along with Modern and Islamic Education.",
       bg: "bg-[#4caf50]"
     }
   ];
@@ -268,24 +268,24 @@ const Footer = () => (
         <div>
           <h3 className="text-2xl font-bold text-white mb-6 font-serif flex items-center gap-2">
             <Building className="w-8 h-8" />
-            جامعہ محمودیہ
+            مدرسہ فرقانیہ
           </h3>
           <ul className="space-y-4 text-sm">
             <li className="flex items-start gap-3">
               <MapPin className="w-5 h-5 text-gray-400 shrink-0 mt-0.5" />
-              <span>Sherpura Ujlan, Pokhran, Distt. Jaisalmer</span>
+              <span>Gonda, Uttar Pradesh, India</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone className="w-5 h-5 text-gray-400 shrink-0" />
-              <span>91-98294 66560+</span>
+              <span>+91-9876543210</span>
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-gray-400 shrink-0" />
-              <span>info@madrasamtq.com</span>
+              <span>info@madarsafurqania.com</span>
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-gray-400 shrink-0" />
-              <span>madarsamahmoodiya2@gmail.com</span>
+              <span>madarsafurqania@gmail.com</span>
             </li>
           </ul>
         </div>
@@ -322,7 +322,7 @@ const Footer = () => (
       </div>
       
       <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
-        <p>Copyright © 2019. Madrasa Mahmoodia Tajweedul Quran.</p>
+        <p>Copyright © 2024. Madarsa Furqania Gonda.</p>
         <div className="flex gap-4 mt-4 md:mt-0">
           <a href="#" className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center hover:bg-[#4caf50] transition text-white"><Twitter className="w-4 h-4" /></a>
           <a href="#" className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center hover:bg-[#4caf50] transition text-white"><Facebook className="w-4 h-4" /></a>
